@@ -15,7 +15,7 @@ This application serves as a Point-of-Sale system tailored for managing premium 
 
 - **Performance Optimization:** Implement code splitting and lazy loading techniques to improve initial loading times and reduce bundle size, enhancing the application's performance.
 - **Database Optimization:** Optimize database queries and indexes to improve the efficiency of data retrieval and manipulation, leading to faster response times and improved scalability as the application's data volume grows.
-- **Client-Side Caching: ** Incorporate client-side caching mechanisms, such as memoization or caching libraries, to reduce unnecessary API calls and improve overall responsiveness, particularly for frequently accessed data.
+- **Client-Side Caching:** Incorporate client-side caching mechanisms, such as memoization or caching libraries, to reduce unnecessary API calls and improve overall responsiveness, particularly for frequently accessed data.
 
 
 ## 🥤 Lessons Learned: 
