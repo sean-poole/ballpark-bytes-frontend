@@ -33,6 +33,8 @@ export default function MenuItem({ item }) {
         itemId
       });
 
+      console.log(response.data.msg);
+
       // Set updated table information in context.
       setTableInfo(response.data.table);
     } catch(err) {
