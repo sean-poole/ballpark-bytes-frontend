@@ -28,7 +28,8 @@ export default function OrderedItem({ item, location }) {
         tableInfo,
         itemId
       });
-      // console.log(`Updated table data: `, response.data);
+      
+      console.log(response.data.msg);
 
       // Set updated table information in context.
       setTableInfo(response.data.table);

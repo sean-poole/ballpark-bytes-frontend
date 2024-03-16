@@ -11,7 +11,7 @@ export default function Logout() {
       // Terminate current session.
       const response = await axios.post(`${backendURL}/logout`);
 
-      console.log(response.data);
+      console.log(response.data.msg);
 
       // Clear auth context.
       logout();

@@ -52,7 +52,7 @@ export default function CheckoutForm({ clientSecret, total }) {
           total
         });
 
-        console.log(receiptResponse.data);
+        console.log(receiptResponse.data.msg);
 
         if (receiptResponse.data.success) {
           // Clear current tableInfo object in 'tables' table.
@@ -60,7 +60,7 @@ export default function CheckoutForm({ clientSecret, total }) {
             tableInfo
           });
 
-          console.log(deleteResponse.data);
+          console.log(deleteResponse.data.msg);
         }
 
         navigate("success");

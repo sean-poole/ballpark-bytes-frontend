@@ -35,8 +35,10 @@ export default function Login() {
         password
       });
 
+      console.log(response.data.msg);
+
       // Authorize user.
-      setAuth(response.data);
+      setAuth(response.data.user);
       // Clear input fields.
       setEmail("");
       setPassword("");
